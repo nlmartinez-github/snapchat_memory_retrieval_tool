@@ -1,4 +1,4 @@
-# snapchat-memory-retrieval-tool
+# Snapchat Memory Retrieval Tool
 Handy dandy tool to get all of your memories from Snapchat (and fast!)
 
 # Motivation
