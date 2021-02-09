@@ -4,7 +4,9 @@ Handy dandy tool to get all of your memories from Snapchat (and fast!)
 # Motivation
 The purpose of this tool was less to accomplish a simple task, downloading memories off of snapchat, as it was a learning experience. I wanted all of my memories off of my Snapchat account, but also have been wanting to learn how to use multithreading/concurrency/parallelism to accomplish large tasks quicker. This tool uses a python library called `asyncio`, which is a library to write concurrent code using the async/await syntax. Read more about it here: https://docs.python.org/3/library/asyncio.html
 
-I was able to accomplish what I wanted, and was able to download over 5000 videos (.mp4) and images (.jpg) from Snapchat's servers (hosted by AWS) in around 3-4 minutes. This was done over wired gigabit connection. The read/writes were handled by a Gen4 NVMe SSD. It was very entertaining to watch!
+I was able to accomplish what I wanted, and was able to download over 5000 videos (.mp4) and images (.jpg) from Snapchat's servers (hosted by AWS) in around 3-4 minutes. This was done over wired gigabit connection. The read/writes were handled by a Gen4 NVMe SSD. It was very entertaining to watch! 
+
+I thought I'd share what I came up with in case there is anyone out there looking to do this or something similar.
 
 # **DISCLAIMER**
 **WARNING**: THIS TOOL USES A LOT OF BANDWIDTH DUE TO SINGLE-THREADED CONCURRENCY. IT IS DESIGNED TO WORK EXTREMELY FAST, WHICH COMES AT A COST. DO NOT USE IF YOU ARE UNSURE OF YOUR HARDWARE & NETWORK LIMITS. THERE ARE ALTERNATIVES THAT AREN'T AS FAST BUT ALSO WON'T BE AS DEMANDING ON YOUR RESOURCES. YOU HAVE BEEN WARNED.
