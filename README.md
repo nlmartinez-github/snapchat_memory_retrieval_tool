@@ -26,3 +26,7 @@ Once you have your data, you'll only need one file from it: `memories_history.js
 <br/>That is all! Given there were no errors, all of your memories should be in a `media` folder under the project's root folder. 
 
 ENJOY!
+
+# Notes
+Please let me know if there's anything that should be improved. 
+I may or may not add more features later on, as well as pictures of example output.
