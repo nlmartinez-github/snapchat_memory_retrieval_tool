@@ -24,7 +24,7 @@ types = {'PHOTO': 'Photos', 'VIDEO': 'Videos'}
 
 def get_formatted_urls():
     """
-    Get properly formatted urls and dates from the memories json.
+    Gets properly formatted urls and dates from the memories json
 
     The urls gotten here will later be used for POST requests.
     The dates gotten here will later be used for file pathing.
@@ -78,7 +78,8 @@ async def get_s3_url(session, formatted_url, formatted_urls):
 
 async def download_file(session, processed_url, dir):
     """
-    Download a file, given a valid download link, and a path to download it to.
+    Downloads a file, given a valid download link and a path to download it to
+    
     The dictionary containing each AWS S3 bucket item link and corresponding
     is used to download each memory and store it relative to the date the
     memory was originally created/saved.
